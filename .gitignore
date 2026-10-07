@@ -1,0 +1,21 @@
+# Dependencies & caches
+node_modules/
+__pycache__/
+*.pyc
+
+# Local environments & credentials
+.env
+.env.*
+!.env.example
+
+# Logs & test runtime artifacts
+*.log
+.playwright-mcp/
+
+# Tool & agent metadata
+.serena/
+.superpowers/
+
+# OS metadata
+.DS_Store
+Thumbs.db
